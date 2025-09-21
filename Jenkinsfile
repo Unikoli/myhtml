@@ -4,9 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo "🔄 Checking out code from GitHub"
-                git branch: 'master',
-                    url: 'git@github.com:Unikoli/myhtml.git'
+                echo "Checking out code from GitHub,checkout completed"
                      
             }
         }
