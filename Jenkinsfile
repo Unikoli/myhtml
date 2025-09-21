@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo "🔄 Checking out code from GitHub"
                 git branch: 'master',
-                    url: 'git@github.com:Unikoli/myhtml.git',
+                    url: 'git@github.com:Unikoli/myhtml.git'
                      
             }
         }
